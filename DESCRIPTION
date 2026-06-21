@@ -1,0 +1,60 @@
+# Retail-Sales-Analytics-Dashboard-Web-App
+
+Retail Sales Analytics Dashboard & Web App
+
+Python · SQL · Pandas · Streamlit · Power BI · Tableau
+
+An end-to-end retail analytics solution that turns raw transactional data into actionable business insights — combining a Power BI/Tableau reporting layer with a companion self-serve Streamlit web app.
+
+🔗 Repo: Retail-Sales-Analytics-Dashboard
+
+
+Overview
+
+Retail businesses generate large volumes of transactional data daily. Without proper analysis, valuable insights regarding sales growth, customer preferences, and product performance remain hidden.
+
+This project analyzes 9,994 retail transactions across 21 columns to surface revenue trends, top-performing segments, and regional/customer behavior — then makes those insights accessible two ways:
+
+Power BI / Tableau dashboards for stakeholders who want polished, presentation-ready reporting.
+A Streamlit web app for stakeholders who want self-serve, filterable access without needing a BI tool license.
+
+Highlights
+
+Analyzed 9,994 retail transactions across 21 columns to uncover revenue trends and top-performing segments, extracting KPIs with Pandas and SQL.
+Designed Power BI dashboards tracking 10+ KPIs with cards, dynamic charts, maps, and slicers for self-serve analysis; recreated key visuals in Tableau for executive presentations.
+Built a companion interactive Streamlit app exposing the same KPIs via dynamic filters, giving stakeholders self-serve access without a BI tool license.
+Exported structured results into multi-sheet Excel workbooks via openpyxl; automated delivery, saving ~5 hours/week for stakeholders
+
+Tech Stack
+
+Category
+Tools
+Programming
+Python
+Data Analysis
+Pandas
+NumPy
+Database
+SQL
+Visualization
+Matplotlib
+Seaborn 
+Dashboard (BI)
+Power BI
+Tableau
+Web App
+Streamlit
+Reporting Export
+openpyxl
+Development
+Jupyter Notebook
+
+Dataset
+
+9,994 retail transaction records across 21 columns, including:
+
+Order ID, Order Date, Ship Date, Ship Mode
+Customer ID, Customer Name, Segment
+Country, Region, State, City, Postal Code
+Product ID, Category, Sub-Category, Product Name
+Sales, Quantity, Discount, Profit
